@@ -1,0 +1,13 @@
+<meta charset="UTF-8">
+<script>
+  
+    let listaDeNumeros = [1, 4, 6, 8, 898, 7, 43, 2980, 3500, 10];
+let par = [];
+    for (let num of listaDeNumeros) {
+       if(num %2 == 0) {
+            par.push(num);
+            par.sort((a, b) => a-b)
+    }
+    }
+    alert(par.join(" - "));
+</script>

@@ -1,0 +1,10 @@
+<script>
+    let nomes = ["Amanda", "Eduardo", "Fábio", "Evelin", "César", "José", "Ivo", "Eva", "Otávio", "Inez", "Osmar", "Ulisses"];
+    let vogalnome = [];
+        for (const nome of nomes) {
+        if (nome.charAt(0)== "A" || nome.charAt(0)== "E" || nome.charAt(0)== "I" || nome.charAt(0) == "O" || nome.charAt(0) == "U"){
+            vogalnome.push(nome);
+        }
+    }
+    alert(vogalnome.sort());
+</script>

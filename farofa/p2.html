@@ -1,0 +1,15 @@
+<script>
+    let nomes = ["João", "Maria", "José", "Amanda", "Beatriz", "Júlio", "Olívia"];
+    let fem = [];
+    let masc = [];
+    for (let nome of nomes){
+        let sexo = prompt(`"${nome}" Aperte F caso este nome for feminino ou M caso for masculino`).toUpperCase();
+        if (sexo == "F"){
+            fem.push(nome)
+        }
+        else{
+            masc.push(nome)
+        }
+    }
+   alert(`Os nomes masculinos são: ${masc.join(", ")} Os nomes femininos são: ${fem.join(", ")}`);
+</script>

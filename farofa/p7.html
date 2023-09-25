@@ -1,0 +1,12 @@
+<script>
+     let numeros = [1, 2.5, -3, 4, 8.9, 4.789, -25.6, 42];
+    let itens = [];
+    for (const numero of numeros) {
+        if(numero > 0 && Number.isInteger(numero)){
+            itens.push(numero);
+        }
+        
+    }
+
+    alert(`${itens}. São ${itens.length} itens`);
+</script>

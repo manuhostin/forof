@@ -1,0 +1,15 @@
+<script>
+    let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    let par = [];
+    let impar = [];
+
+    for (let numero of numeros) {
+        if (numero % 2 == 0) {
+            par.push(numero);
+    }
+        else{
+            impar.push(numero);
+        }
+    }
+    alert(`Números pares na ordem crescente: ${par.sort((a,b) => a-b)}   Números pares na ordem decrescente: ${par.sort((b,a) => a-b)}Números impares na ordem crescente: ${impar.sort((a,b) => a-b)}  Números impares na ordem decrescente: ${impar.sort((b,a) => a-b)}`);
+</script>
